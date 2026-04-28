@@ -573,7 +573,7 @@ Executada após `DOMContentLoaded` (ou imediatamente se o DOM já estiver pronto
 | Vídeo tour           | `https://www.apple.com/105/media/br/...m3u8`   | HLS (vídeo) |
 
 > ⚠️ As imagens são carregadas diretamente dos servidores da Apple.
-> Em ambiente de produção próprio, recomenda-se baixar e hospedar localmente.
+> Seria importante alterar para local assim que possível.
 
 ---
 
@@ -619,6 +619,7 @@ Duplo clique em index.html
 ```
 
 > As imagens carregam dos servidores Apple — requer conexão com internet.
+> Seria importante alterar para local assim que possível.
 
 ### Com servidor local (recomendado)
 
