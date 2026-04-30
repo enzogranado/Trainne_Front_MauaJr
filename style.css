@@ -1413,6 +1413,29 @@ main {
   line-height: 1.6;
 }
 
+.secao-notas__lista a {
+  font-size: var(--tamanho-fonte-pequeno);
+  color: rgba(0, 0, 0, 0.72);
+  margin-bottom: 12px;
+  line-height: 1.6;
+  text-decoration: underline;
+}
+
+.secao-notas__texto {
+  font-size: var(--tamanho-fonte-pequeno);
+  color: var(--cor-texto-terciario);
+  margin-bottom: 12px;
+  line-height: 1.6;
+}
+
+.secao-notas__texto a {
+  font-size: var(--tamanho-fonte-pequeno);
+  color: rgba(0, 0, 0, 0.72);
+  margin-bottom: 12px;
+  line-height: 1.6;
+  text-decoration: underline;
+}
+
 /* ============================================================
    RODAPÉ GLOBAL
    ============================================================ */
