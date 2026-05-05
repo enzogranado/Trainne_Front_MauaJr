@@ -154,7 +154,6 @@ h1, h2, h3, h4, h5, h6 {
    NAVEGAÇÃO GLOBAL
    ============================================================ */
 .nav-global {
-  position: fixed;
   top: 0;
   left: 0;
   right: 0;
@@ -163,7 +162,6 @@ h1, h2, h3, h4, h5, h6 {
   background-color: var(--cor-fundo-nav);
   backdrop-filter: saturate(180%) blur(20px);
   -webkit-backdrop-filter: saturate(180%) blur(20px);
-  border-bottom: var(--sombra-nav) 0px solid;
   box-shadow: var(--sombra-nav);
   transition: background-color var(--transicao-padrao);
 }
@@ -175,7 +173,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-global__container {
   display: flex;
-  align-items: center;
+  align-items: center;  
   justify-content: space-between;
   max-width: var(--largura-maxima-container-larga);
   margin: 0 auto;
@@ -281,7 +279,6 @@ h1, h2, h3, h4, h5, h6 {
    BANNER DE PROMOÇÃO
    ============================================================ */
 .banner-promo {
-  position: fixed;
   top: var(--altura-nav);
   left: 0;
   right: 0;
@@ -291,7 +288,6 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   align-items: center;
   justify-content: center;
-  border-bottom: 1px solid var(--cor-cinza-borda);
 }
 
 .banner-promo__container {
@@ -329,7 +325,7 @@ main {
    ============================================================ */
 .titulo-pagina {
   background-color: var(--cor-fundo-pagina);
-  text-align: center;
+  text-align: left;
   padding: 40px var(--espaco-container-horizontal) 0;
 }
 
@@ -356,7 +352,6 @@ main {
   background-color: rgba(255, 255, 255, 0.85);
   backdrop-filter: saturate(180%) blur(20px);
   -webkit-backdrop-filter: saturate(180%) blur(20px);
-  border-bottom: 1px solid var(--cor-cinza-borda);
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
   scrollbar-width: none;
@@ -661,7 +656,6 @@ main {
 .secao-familia {
   background-color: var(--cor-fundo-pagina);
   padding: var(--espaco-secao-vertical) var(--espaco-container-horizontal);
-  border-top: 1px solid var(--cor-cinza-borda);
 }
 
 .secao-familia__container {
@@ -898,7 +892,6 @@ main {
 .secao-incentivos {
   background-color: var(--cor-fundo-pagina);
   padding: var(--espaco-secao-vertical) var(--espaco-container-horizontal);
-  border-top: 1px solid var(--cor-cinza-borda);
 }
 
 .secao-incentivos__container {
@@ -1071,7 +1064,6 @@ main {
 .secao-features {
   background-color: var(--cor-fundo-pagina);
   padding: var(--espaco-secao-vertical) var(--espaco-container-horizontal);
-  border-top: 1px solid var(--cor-cinza-borda);
 }
 
 .secao-features__container {
@@ -1093,7 +1085,6 @@ main {
   flex-wrap: wrap;
   gap: 8px;
   margin-bottom: 40px;
-  border-bottom: 1px solid var(--cor-cinza-borda);
   padding-bottom: 0;
 }
 
@@ -1315,7 +1306,6 @@ main {
 .secao-ecossistema {
   background-color: var(--cor-fundo-pagina);
   padding: var(--espaco-secao-vertical) var(--espaco-container-horizontal);
-  border-top: 1px solid var(--cor-cinza-borda);
 }
 
 .secao-ecossistema__container {
@@ -1386,7 +1376,7 @@ main {
    ============================================================ */
 .secao-notas {
   padding: 40px var(--espaco-container-horizontal);
-  border-top: 1px solid var(--cor-cinza-borda);
+  background-color: var(--cor-fundo-rodape);
 }
 
 .secao-notas__container {
@@ -1599,7 +1589,6 @@ main {
 
   .nav-global__links {
     display: none;
-    position: fixed;
     top: var(--altura-nav);
     left: 0;
     right: 0;
