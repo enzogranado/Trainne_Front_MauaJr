@@ -206,6 +206,16 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: center;
 }
 
+#apple {
+  display: block;
+  font-size: 8px;
+  font-weight: var(--peso-fonte-regular);
+  color: var(--cor-texto-primario);
+  white-space: nowrap;
+  transition: opacity var(--transicao-rapida);
+  letter-spacing: 0;
+}
+
 .nav-global__links li a {
   display: block;
   padding: 0 10px;
