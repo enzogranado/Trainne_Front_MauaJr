@@ -346,7 +346,9 @@ main {
 
 .titulo-pagina__titulo {
   font-size: 64px;
-  font-weight: var(--peso-fonte-semibold);
+  /* font-weight: var(--fonte-principal); */
+  font-family: var(--fonte-principal);
+  font-weight: 600;
   color: var(--cor-texto-primario);
   letter-spacing: -0.005em;
   line-height: 1;
@@ -908,7 +910,7 @@ main {
    SEÇÃO INCENTIVOS — "MOTIVOS PARA COMPRAR"
    ============================================================ */
 .secao-incentivos {
-  background-color: var(--cor-fundo-pagina);
+  background-color: rgba(245, 245, 247, 0.98);
   padding: var(--espaco-secao-vertical) var(--espaco-container-horizontal);
 }
 
@@ -945,8 +947,13 @@ main {
 
 .grade-incentivos {
   display: flex;
+  overflow-x: auto; /* Habilita o scroll horizontal */
   grid-template-columns: repeat(2, 1fr);
   gap: 16px;
+}
+
+.grade-incentivos::-webkit-scrollbar {
+  display: none;
 }
 
 @media (min-width: 768px) {
