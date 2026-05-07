@@ -419,15 +419,13 @@ main {
 
 .nav-modelos__tag-novo {
   display: inline-block;
-  background-color: var(--cor-azul-apple);
-  color: white;
-  font-size: 9px;
+  color: #B64400;
+  font-size: 12px;
   font-weight: var(--peso-fonte-semibold);
   padding: 1px 4px;
   border-radius: 4px;
   margin-left: 3px;
   vertical-align: middle;
-  text-transform: uppercase;
   letter-spacing: 0.02em;
 }
 
@@ -710,9 +708,14 @@ main {
 }
 
 .grade-familia {
-  display: grid;
+  display: flex;
   grid-template-columns: repeat(2, 1fr);
   gap: 16px;
+  overflow-x: auto;
+}
+
+.grade-familia::-webkit-scrollbar {
+  display: none;
 }
 
 @media (min-width: 768px) {
@@ -734,6 +737,7 @@ main {
   text-align: center;
   position: relative;
   display: flex;
+  flex: 0 0 334px;
   flex-direction: column;
   align-items: center;
   gap: 12px;
@@ -746,15 +750,13 @@ main {
 
 .card-modelo__tag-novo-badge {
   position: absolute;
-  top: 14px;
-  left: 14px;
-  background-color: var(--cor-azul-apple);
-  color: white;
-  font-size: 10px;
+  bottom: 120px;
+  left: 140px;
+  color: #B64400;
+  font-size: 12px;
   font-weight: var(--peso-fonte-semibold);
   padding: 2px 8px;
   border-radius: 4px;
-  text-transform: uppercase;
   letter-spacing: 0.04em;
 }
 
